@@ -1,0 +1,105 @@
+body {
+    font-family: 'Josefin Sans', sans-serif;
+    font-weight: 400;
+}
+
+.container {
+    background-color: hsl(0, 36%, 70%);
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100vh;
+}
+
+.container .card {
+    display: flex;
+    width: 1000px;
+    background-color: #ffffff;
+}
+
+.container .card .containt-left {
+    padding: 50px 90px;
+    width: 100%;
+}
+
+.container .card .containt-left .img {
+    margin-bottom: 60px;
+}
+
+.container .card .containt-left .title {
+    font-weight: 300;
+    font-size: 60px;
+    text-transform: uppercase;
+    letter-spacing: 7px;
+}
+
+.container .card .containt-left span {
+    color: hsl(0, 36%, 70%);
+}
+
+.container .card .containt-left .paragraph {
+    color: hsl(0, 36%, 70%);
+    line-height: 25px;
+    margin: 20px 0;
+}
+
+.input {
+    display: flex;
+    gap: 10px;
+}
+input{
+    border: 1px solid hsl(0, 80%, 86%); 
+}
+.input input {
+    padding: 13px;
+    border-radius: 20px;
+    width: 100%; 
+}
+
+.input .btn {
+    background-color: hsl(0, 80%, 86%);
+    color: #fff;
+    padding: 5px 40px;
+    border: none;
+    border-radius: 20px;
+    cursor: pointer;
+}
+
+.input .btn:hover {
+    opacity: 0.9;
+}
+
+.card .containt-right img {
+    width: 400px;
+    height: 100%;
+}
+
+/* javascript */
+.campo-requerido {
+    background-image: url(../images/icon-error.svg);
+    background-repeat: no-repeat;
+    background-position: top 8px right 10px;
+    border: 1px solid red;
+}
+
+.requered {
+    color: red;
+    margin-left: 10px;
+    font-size: 14px;
+}
+
+.requered.ativo {
+    display: none;
+}
+
+.campo-requerido {
+    background-image: url(../images/icon-error.svg);
+    background-repeat: no-repeat;
+    background-position: top 8px right 10px;
+    border: 1px solid red;
+}
+
+
+.campo-sucess {
+    border: 1px solid green;
+}
